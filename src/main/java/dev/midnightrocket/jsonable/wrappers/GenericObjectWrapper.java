@@ -1,6 +1,6 @@
 package dev.midnightrocket.jsonable.wrappers;
 
-import dev.midnightrocket.jsonable.interfaces.JSONable;
+import dev.midnightrocket.jsonable.JSONable;
 
 public abstract class GenericObjectWrapper<T> implements JSONable {
 

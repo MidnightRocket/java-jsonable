@@ -1,7 +1,7 @@
 package dev.midnightrocket.jsonable.collections;
 
 import dev.midnightrocket.jsonable.collections.interfaces.JSONableMap;
-import dev.midnightrocket.jsonable.interfaces.JSONable;
+import dev.midnightrocket.jsonable.JSONable;
 
 import java.util.HashMap;
 

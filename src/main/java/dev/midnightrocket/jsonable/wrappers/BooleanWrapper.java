@@ -1,13 +1,13 @@
 package dev.midnightrocket.jsonable.wrappers;
 
-import dev.midnightrocket.jsonable.interfaces.JSONWrapperFunction;
+import dev.midnightrocket.jsonable.wrappers.interfaces.WrapperFunction;
 
 public class BooleanWrapper extends JavaLangTypesWrapper<Boolean> {
     public BooleanWrapper(Boolean b) {
         super(b);
     }
 
-    public static JSONWrapperFunction<Boolean, BooleanWrapper> getWrapperFunction() {
+    public static WrapperFunction<Boolean, BooleanWrapper> getWrapperFunction() {
         return BooleanWrapper::new;
     }
 

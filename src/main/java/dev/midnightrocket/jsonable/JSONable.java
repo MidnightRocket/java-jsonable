@@ -1,4 +1,4 @@
-package dev.midnightrocket.jsonable.interfaces;
+package dev.midnightrocket.jsonable;
 
 public interface JSONable {
     public String toJSON();

@@ -2,8 +2,8 @@ package dev.midnightrocket.jsonable.collections.interfaces;
 
 
 import dev.midnightrocket.jsonable.collections.JSONableHashMap;
-import dev.midnightrocket.jsonable.interfaces.JSONWrapperFunction;
-import dev.midnightrocket.jsonable.interfaces.JSONable;
+import dev.midnightrocket.jsonable.wrappers.interfaces.WrapperFunction;
+import dev.midnightrocket.jsonable.JSONable;
 import dev.midnightrocket.jsonable.wrappers.BooleanWrapper;
 import dev.midnightrocket.jsonable.wrappers.GenericObjectWrapper;
 import dev.midnightrocket.jsonable.wrappers.chars_and_strings.StringWrapper;

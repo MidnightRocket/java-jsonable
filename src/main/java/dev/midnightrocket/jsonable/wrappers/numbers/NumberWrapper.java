@@ -1,7 +1,7 @@
 package dev.midnightrocket.jsonable.wrappers.numbers;
 
-import dev.midnightrocket.jsonable.interfaces.JSONWrapperFunction;
-import dev.midnightrocket.jsonable.interfaces.JSONable;
+import dev.midnightrocket.jsonable.wrappers.interfaces.WrapperFunction;
+import dev.midnightrocket.jsonable.JSONable;
 import dev.midnightrocket.jsonable.wrappers.JavaLangTypesWrapper;
 
 public class NumberWrapper<T extends Number> extends JavaLangTypesWrapper<T> implements JSONable {
@@ -9,7 +9,7 @@ public class NumberWrapper<T extends Number> extends JavaLangTypesWrapper<T> imp
         super(number);
     }
 
-    public static <T extends Number> JSONWrapperFunction<T, NumberWrapper<T>> getWrapperFunction() {
+    public static <T extends Number> WrapperFunction<T, NumberWrapper<T>> getWrapperFunction() {
         return NumberWrapper<T>::new;
     }
 

@@ -1,6 +1,6 @@
 package dev.midnightrocket.jsonable.wrappers.chars_and_strings;
 
-import dev.midnightrocket.jsonable.interfaces.JSONWrapperFunction;
+import dev.midnightrocket.jsonable.wrappers.interfaces.WrapperFunction;
 import dev.midnightrocket.jsonable.wrappers.JavaLangTypesWrapper;
 
 public class StringWrapper extends JavaLangTypesWrapper<String> {
@@ -12,7 +12,7 @@ public class StringWrapper extends JavaLangTypesWrapper<String> {
         this(c.toString());
     }
 
-    public static JSONWrapperFunction<String, StringWrapper> getWrapperFunction() {
+    public static WrapperFunction<String, StringWrapper> getWrapperFunction() {
         return StringWrapper::new;
     }
 
