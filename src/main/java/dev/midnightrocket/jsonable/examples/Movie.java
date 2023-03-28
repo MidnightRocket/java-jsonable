@@ -1,4 +1,4 @@
-package dev.midnightrocket.jsonable.example;
+package dev.midnightrocket.jsonable.examples;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package dev.midnightrocket.jsonable.example;
+package dev.midnightrocket.jsonable.examples;
 
 /**
  *
